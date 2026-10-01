@@ -47,8 +47,8 @@ logging.basicConfig(
 log = logging.getLogger("safechat")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-ADMIN_ID = os.getenv("ADMIN_ID", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8583804982:AAHny27DL_mKJtK4g0N76lMZpODMbG4VDCI")
+ADMIN_ID = os.getenv("ADMIN_ID", "8104665298")
 REPORTS_FILE = os.getenv("REPORTS_FILE", os.path.join(BASE_DIR, "reports.jsonl"))
 DATA_FILE = os.getenv("DATA_FILE", os.path.join(BASE_DIR, "data.json"))
 
