@@ -1,6 +1,0 @@
-venv/
-.env
-reports.jsonl
-data.json
-__pycache__/
-*.pyc
